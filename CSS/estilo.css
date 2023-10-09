@@ -5,7 +5,7 @@
     font-family: 'Open Sans';
 }
 .contenedor{
-    max-width: 990px;
+    max-width: 950px;
     padding: auto;
     margin: auto;
     display: flex;
@@ -203,7 +203,7 @@
 @media screen and (max-width: 850px) {
     .contenedor {
       display: flex;
-      max-width: 750px;
+      max-width: 700px;
     }
     .contenedor-items{
         width: 75% !important;
