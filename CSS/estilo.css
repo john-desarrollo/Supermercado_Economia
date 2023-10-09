@@ -203,7 +203,7 @@
 @media screen and (max-width: 850px) {
     .contenedor {
       display: flex;
-      max-width: 800px;
+      max-width: 750px;
     }
     .contenedor-items{
         width: 75% !important;
