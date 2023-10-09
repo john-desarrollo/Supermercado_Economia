@@ -1,0 +1,202 @@
+/* Reseteamos los estilos por defecto del navegador */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos generales */
+body {
+    font-family: 'Luxurious Script';
+    background:#edf8ee;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-image: url("../Imagenes/fondo.header.PNG") ; 
+    background-size: cover;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+header img {
+    max-width: 200px; 
+    padding: 10px;
+}
+header h1{
+    color: white;
+    padding: 20px;
+    font-size: 30px;
+
+}
+
+.titulo-principal{
+    font-size: 25px;
+    padding-top: 0;
+    padding-bottom: 25px;
+}
+
+.titulo-central{
+    padding: 5px;
+    margin: 5px;
+
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px; 
+    
+}
+
+nav a {
+    text-decoration: none;
+    color: #f6fcf9;
+    font-size: 20px;
+}
+
+nav a:hover{
+    color: #1933c7;
+    text-decoration:underline;
+}
+
+
+
+main {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 5px;
+    background:#edf8ee;
+}
+
+/* Estilos para la presentacion*/
+#descripcion {
+    box-sizing: border-box;
+    text-align: center;
+    padding: 10px;
+    background: #edf8ee;
+    margin: auto;
+    max-width: 100%;
+    
+}
+
+
+#descripcion h1 {
+    font-size: 56px;
+    margin: auto;
+    color: rgb(19, 80, 19);
+    padding: 10px;
+}
+
+#descripcion img {
+    max-width: 100%;
+    height: auto;
+    margin: 0 0 0;
+}
+
+#descripcion p {
+    font-size: 25px;
+    color: #202220;
+    text-align: justify;
+}
+/* Estilos para la sección de las categorias */
+#categorias {
+    text-align: center;
+    padding: 0;
+    width: 100%;
+
+}
+
+#categorias h2 {
+    margin-top: 40px;
+    font-size: 45px;
+    margin-bottom: 5px;
+    color: #572364;
+    padding: auto;
+}
+
+.categoria {
+    display: inline-block;
+    margin: 15px;
+    text-align: center;
+    justify-content: center;
+    padding: auto;
+
+}
+
+.categoria img {
+    max-width: 100%;
+    height: auto;
+}
+
+.categoria h3 {
+    font-size: 20px;
+    margin-top: 0;
+    color: rgb(42, 38, 38);
+    padding: 0;
+    font-weight: bold;
+}
+.categoria:hover{
+    transform: scale(1.1); 
+    transition: transform 0.3s ease;  
+}
+
+/* Estilos para el footer */
+footer {
+    background: linear-gradient(to right,#d3e2b8, #cbdfb4, #d2ecb0 );
+    color: rgb(21, 88, 47);
+    padding: 20px 0;
+    text-align: center; 
+}
+
+.content-center {
+    display: flex;
+    justify-content: center; 
+    flex-wrap: wrap;
+}
+
+.content_contacto {
+    flex-basis: calc(25% - 40px); 
+    text-align: left; 
+    margin-bottom: 20px;
+    margin-right: 20px; 
+    padding: 10px; 
+}
+
+.content_contacto h2 {
+    font-size: 24px;
+    margin-bottom: 10px; 
+}
+
+.content_contacto p {
+    text-align: justify;
+    margin-bottom: 10px; 
+}
+
+.content_contacto ul {
+    list-style: none;
+    padding: 0;
+}
+
+.content_contacto ul li {
+    margin-bottom: 10px;
+}
+
+.content_contacto a {
+    color: #16168d;
+    text-decoration: none;
+}
+
+/* Para que el footer sea responsivo */
+@media (max-width: 768px) {
+    .content_contacto {
+        flex-basis: calc(50% - 40px); 
+    }
+}
+
+@media (max-width: 480px) {
+    .content_contacto {
+        flex-basis: calc(100% - 40px); 
+    }
+}

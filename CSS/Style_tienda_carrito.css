@@ -1,0 +1,241 @@
+/* Reseteamos los estilos por defecto del navegador */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos generales */
+body {
+    font-family: 'Luxurious Script';
+    background:#edf8ee;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-image: url("../Imagenes/fondo.header.PNG") ; 
+    background-size: cover;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+header img {
+    max-width: 200px; 
+    padding: 15px;
+}
+header h1{
+    color: white;
+    padding: 25px;
+    font-size: 30px;
+
+}
+.titulo-principal{
+    font-size: 25px;
+    padding-top: 0;
+    padding-bottom: 20px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px; 
+}
+
+nav a {
+    text-decoration: none;
+    color: #f6fcf9;
+    font-size: 21px;
+}
+
+nav a:hover{
+    color: #1933c7;
+    text-decoration:underline;
+}
+
+
+main {
+    
+    background:#edf8ee;
+    display: flex;
+    align-items: flex-start;
+}
+.filtros {
+    width: 25%; 
+    text-align: left;
+    margin: 5em 125px 0 48px;
+    font-size: 25px;
+    
+    
+}
+
+.filtros ul{
+    list-style-type: none;
+    color: #43453f;
+}
+
+.filtros a{
+    text-decoration: none;
+    color: #646462;
+    transition: color 0.3s; 
+}
+
+
+
+/* Estilos para la lista de productos */
+.categoria-productos {
+    width: auto; 
+    height: auto;
+    margin: 5em auto 2em;
+    
+    
+}
+
+.catalogo {
+    box-sizing: border-box;
+    text-align: center;
+    padding: 15px;
+    background: #edf8ee;
+    margin: 20px ;
+    display: inline-block;
+    height: auto;
+    width: auto;
+    box-sizing: border-box;
+}
+
+.categoria-productos h1 {
+    text-align: center;
+    font-size: 45px;
+    color: #215739;
+    font-weight: bold;
+
+}
+
+.catalogo:hover{
+    transform: scale(1.1); 
+    transition: transform 0.3s ease; 
+    border: 1px solid #e9e6e6;
+}
+
+
+.siguiente {
+    text-align: center;
+    font-size: 18px;
+
+}
+.siguiente a{
+    text-decoration: none;
+    color: #646462;
+}
+
+
+/* Estilos para el carrito */
+.carrito {
+    text-align: center;
+    background:#edf8ee;
+    padding: 40px; 
+    width: 75%; 
+    max-width: 550px; 
+    margin: 40px auto; 
+}
+
+
+.carrito h1 {
+    font-size: 55px; 
+    font-weight: bold;
+    font-style: normal;
+    margin-bottom: 20px;
+}
+
+.carrito .mensaje {
+    font-size: 20px;
+    margin: 0;
+    font-weight: bold;
+    color: #484946;
+}
+
+.carrito .mensaje_dos{
+    font-size: 20px;
+
+   
+}
+
+.carrito .boton {
+    display: inline-block;
+    padding: 10px 40px; 
+    background-color: rgba(1, 83, 160, 0.886);
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px; 
+    border-radius: 5px;
+    transition: background-color 0.1s;
+    margin: 40px;
+}
+
+.carrito .boton:hover {
+    background-color: #084b93;
+}
+
+
+/* Estilos para el footer */
+footer {
+    background: linear-gradient(to right,#d3e2b8, #cbdfb4, #d2ecb0 );
+    color: rgb(21, 88, 47);
+    padding: 20px 0;
+    text-align: center; 
+}
+
+.content-center {
+    display: flex;
+    justify-content: center; 
+    flex-wrap: wrap;
+}
+
+.content_contacto {
+    flex-basis: calc(25% - 40px); 
+    text-align: left; 
+    margin-bottom: 20px;
+    margin-right: 20px; 
+    padding: 10px; 
+}
+
+.content_contacto h2 {
+    font-size: 24px;
+    margin-bottom: 10px; 
+}
+
+.content_contacto p {
+    text-align: justify;
+    margin-bottom: 10px; 
+}
+
+.content_contacto ul {
+    list-style: none;
+    padding: 0;
+}
+
+.content_contacto ul li {
+    margin-bottom: 10px;
+}
+
+.content_contacto a {
+    color: #16168d;
+    text-decoration: none;
+}
+
+/* Para hacerlo responsivo */
+@media (max-width: 768px) {
+    .content_contacto {
+        flex-basis: calc(50% - 40px); 
+    }
+}
+
+@media (max-width: 480px) {
+    .content_contacto {
+        flex-basis: calc(100% - 40px); 
+    }
+}

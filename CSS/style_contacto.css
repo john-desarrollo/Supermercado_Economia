@@ -1,0 +1,169 @@
+/* Reseteamos los estilos por defecto del navegador */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Luxurious Script';
+    background-color: azure;
+}
+header {
+    background-image: url("../Imagenes/fondo.header.PNG") ; 
+    background-size: cover;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+header img {
+    max-width: 200px; 
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px; 
+}
+
+nav a {
+    text-decoration: none;
+    color: #f9f5f5;
+    font-size: 21px;
+}
+
+nav a:hover{
+    color: #1933c7;
+    text-decoration:underline;
+}
+.titulo-principal{
+    font-size: 25px;
+    padding-top: 0;
+    padding-bottom: 35px;
+    color: white;
+}
+
+
+
+/* Estilo para el main */
+main {
+    display: flex;  
+    margin: 30px 6em 0 10em;
+    align-items: center;
+    justify-content: space-around;
+    min-height: 70vh;
+    align-items: flex-start;
+    min-height: 70vh;
+}
+
+/* Estilos para el mapa */
+.mapa {
+    width: 50%; 
+    margin: 20px 20px 20px 0;
+    
+}
+
+/* Estilo para la atencion */
+.horarios {
+    width: 50%; 
+    text-align: center;
+    
+}
+
+h2 {
+    font-size: 30px;
+    margin: 15px 1em 0 auto;
+}
+
+.horarios p {
+    font-size: 20px;
+    margin: 10px 0;
+    color: #111010;
+}
+.correo p {
+    color: #303ce4;
+    text-decoration: underline;
+
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+
+/* Estilos para el footer */
+footer {
+    background: linear-gradient(to right,#d3e2b8, #cbdfb4, #d2ecb0 );
+    color: rgb(21, 88, 47);
+    padding: 20px 0;
+    text-align: center; 
+}
+
+.content-center {
+    display: flex;
+    justify-content: center; 
+    flex-wrap: wrap;
+}
+
+.content_contacto {
+    flex-basis: calc(25% - 40px); 
+    text-align: left; 
+    margin-bottom: 20px;
+    margin-right: 20px; 
+    padding: 10px; 
+}
+
+.content_contacto h2 {
+    font-size: 24px;
+    margin-bottom: 10px; 
+}
+
+.content_contacto p {
+    text-align: justify;
+    margin-bottom: 10px; 
+}
+
+.content_contacto ul {
+    list-style: none;
+    padding: 0;
+}
+
+.content_contacto ul li {
+    margin-bottom: 10px;
+}
+
+.content_contacto a {
+    color: #16168d;
+    text-decoration: none;
+}
+
+/* Para hacerlo responsivo */
+@media (max-width: 768px) {
+    .content_contacto {
+        flex-basis: calc(50% - 40px); 
+    }
+}
+
+@media (max-width: 480px) {
+    .content_contacto {
+        flex-basis: calc(100% - 40px); 
+    }
+}
+
+

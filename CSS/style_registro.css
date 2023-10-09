@@ -1,0 +1,213 @@
+/* Reseteamos los estilos por defecto del navegador */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos generales */
+body {
+    font-family: 'Luxurious Script';
+    background: #edf8ee;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-image: url("../Imagenes/fondo.header.PNG");
+    background-size: cover;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+header img {
+    max-width: 200px;
+    padding: 15px;
+}
+
+header h1 {
+    color: white;
+    padding: 10px;
+    font-size: 30px;
+
+}
+
+.titulo_segundo {
+    font-size: 45px;
+    font-weight: bolder;
+    color: #215739;
+    text-align: center;
+    padding: 30px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #f6fcf9;
+    font-size: 20px;
+}
+
+nav a:hover {
+    color: #1933c7;
+    text-decoration: underline;
+}
+
+.titulo-principal {
+
+    font-size: 25px;
+    padding-top: 0;
+    padding-bottom: 35px;
+    color: white;
+
+}
+
+
+
+/* Estilos para el main */
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 70vh;
+    background-color: #edf8ee;
+    padding: 20px;
+}
+
+.leyenda {
+    text-align: center;
+}
+
+h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    padding: 2em 0 0;
+}
+
+p {
+    font-size: 26px;
+    margin: 20px auto 60px;
+    max-width: 800px;
+    text-align: justify;
+
+
+}
+
+form {
+    padding-bottom: 60px;
+    background-color: #edf8ee;
+    max-width: 550px;
+    margin: 20px auto;
+    text-align: left;
+}
+
+h2 {
+    font-size: 45px;
+    margin-bottom: 10px;
+    padding: 1px 0 35px;
+    color: #070a52;
+    font-weight: bold;
+}
+
+label {
+    display: block;
+    margin-bottom: 0px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 0 1em 0px 2em;
+    margin-bottom: 20px;
+    border: none;
+    border-bottom: 2px solid #787575;
+    font-size: 16px;
+    margin-top: 20px;
+    background-color: #edf8ee;
+}
+
+.enviar {
+    background-color: #1b1b1c;
+    color: white;
+    border: none;
+    padding: 18px 100px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    align-items: center;
+}
+
+.enviar:hover {
+    background-color: #4c4e4f;
+}
+
+
+
+/* Estilos para el footer */
+footer {
+    background: linear-gradient(to right,#d3e2b8, #cbdfb4, #d2ecb0 );
+    color: rgb(21, 88, 47);
+    padding: 20px 0;
+    text-align: center; 
+}
+
+.content-center {
+    display: flex;
+    justify-content: center; 
+    flex-wrap: wrap;
+}
+
+.content_contacto {
+    flex-basis: calc(25% - 40px); 
+    text-align: left; 
+    margin-bottom: 20px;
+    margin-right: 15px; 
+    padding: 10px; 
+}
+
+.content_contacto h2 {
+    font-size: 24px;
+    margin-bottom: 0; 
+}
+
+.content_contacto p {
+    text-align: justify;
+    margin-bottom: 10px; 
+}
+
+.content_contacto ul {
+    list-style: none;
+    padding: 0;
+}
+
+.content_contacto ul li {
+    margin-bottom: 5px;
+}
+
+.content_contacto a {
+    color: #16168d;
+    text-decoration: none;
+}
+
+/* Para hacerlo responsivo */
+@media (max-width: 768px) {
+    .content_contacto {
+        flex-basis: calc(50% - 40px); 
+    }
+}
+
+@media (max-width: 480px) {
+    .content_contacto {
+        flex-basis: calc(100% - 40px); 
+    }
+}
