@@ -5,14 +5,14 @@
     font-family: 'Open Sans';
 }
 .contenedor{
-    max-width: 800px;
+    max-width: 860px;
     padding: auto;
     margin: auto;
     display: flex;
     justify-content: space-between;
     /* oculto lo que queda fuera del .contenedor */
     contain: paint;
-    width: 100%
+    
     
 }
 
