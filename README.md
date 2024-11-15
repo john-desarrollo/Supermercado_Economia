@@ -1,5 +1,5 @@
 # Supermercado_Economia
-Prueba de funcionamiento del supermercado: https://john-desarrollo.github.io/Supermercado_Economia/tienda.html 
+Prueba de funcionamiento del supermercado en el siguiente enlace: https://john-desarrollo.github.io/Supermercado_Economia/tienda.html 
 
 Realizado en:
 
